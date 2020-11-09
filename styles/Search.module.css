@@ -1,0 +1,47 @@
+.form {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 10px;
+}
+
+.input:hover {
+  box-shadow: 0 0 1em #CDDC39;
+}
+
+.field, .button {
+  background: none;
+  border: 2px solid #CDDC39;
+  color: #CDDC39;
+  padding: 0.2em 0.4em;
+  font-size: 32px;
+}
+
+.field {
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+}
+
+.field:focus {
+  outline: 0 none;
+}
+
+.button {
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+}
+
+.error {
+  color: #D6161A;
+  margin: 2em 0 1em;
+}
